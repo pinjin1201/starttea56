@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+// body {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+.starttea {
+  position: relative;
+  max-width: 960px;
+  width: 960px;
+  margin: 0 auto;
+  // background-color: #000;
+  overflow: hidden;
+  .store {
+    width: 2880px;
+    height: 960px;
+    display: flex;
+  }
+  .store_title {
+    // position: absolute;
+    // top: 50px;
+    // left: 0px;
+    position: fixed;
+    top: 50px;
+    .up {
+      width: 960px;
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        width: 230px;
+        margin-left: 60px;
+        cursor: pointer;
+      }
+      .menu {
+        width: 146px;
+        height: 80px;
+        margin-top: 30px;
+        margin-right: 60px;
+        cursor: pointer;
+      }
+    }
+    .line {
+      width: 90%;
+      height: 3px;
+      background: #000;
+      margin-left: 43px;
+      margin-top: 28px;
+    }
+  }
+  .open_menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 960px;
+    height: 100%;
+    background: #000;
+    opacity: 0.75;
+    .close {
+      color: #fff;
+      font-size: 5em;
+      text-align: right;
+      padding: 20px 50px 50px 0;
+      cursor: pointer;
+    }
+    .item {
+      text-align: center;
+      color: #fff;
+      font-size: 2em;
+      margin-bottom: 50px;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+  .message {
+    background: url("../images/action/大背景.png");
+    background-attachment: fixed;
+    width: 960px;
+    padding-bottom: 10px;
+    img {
+      display: block;
+      cursor: pointer;
+    }
+    .message_title {
+      width: 40%;
+      margin: 0px auto 100px;
+      padding-top: 100px;
+    }
+    .message1,
+    .message2,
+    .message3 {
+      width: 50%;
+      margin: 0 auto 100px;
+    }
+    .message_btn1,
+    .message_btn2,
+    .message_btn3 {
+      width: 80px;
+      height: 80px;
+      margin-top: -246px;
+      margin-bottom: 200px;
+      margin-left: 612px;
+    }
+  }
+  .open_message {
+    display: none;
+    width: 960px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #000;
+    .message_detail1,
+    .message_detail2,
+    .message_detail3 {
+      display: none;
+      margin: 80px auto 0;
+    }
+    .close1,
+    .close2,
+    .close3 {
+      display: none;
+      color: #fff;
+      font-size: 5em;
+      text-align: right;
+      padding: 20px 50px 0px 0px;
+    }
+    .message_detail3 {
+      width: 700px;
+    }
+  }
+  .product {
+    width: 960px;
+    .product_title {
+      display: block;
+      width: 40%;
+      margin: 0px auto 150px;
+    }
+    .thailand {
+      width: 960px;
+      margin-bottom: 130px;
+    }
+    .thailand_detail {
+      width: 600px;
+      overflow: hidden;
+      margin: 0 auto;
+      .details {
+        display: flex;
+        width: 1800px;
+        margin-bottom: 70px;
+      }
+    }
+    .thailand_dot {
+      width: 960px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      .dot1,
+      .dot2,
+      .dot3 {
+        width: 20px;
+        height: 20px;
+        background: #d9d9d9;
+        margin-right: 20px;
+      }
+    }
+    .drink {
+      width: 960px;
+      margin-bottom: 70px;
+    }
+    .taiwan_drink {
+      width: 600px;
+      overflow: hidden;
+      margin: 0 auto;
+      .details {
+        width: 3000px;
+        // height: 780px;
+        display: flex;
+        margin-bottom: 30px;
+      }
+    }
+    .taiwan_dot {
+      width: 960px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      .dot1,
+      .dot2,
+      .dot3 {
+        width: 20px;
+        height: 20px;
+        background: #d9d9d9;
+        margin-right: 20px;
+      }
+    }
+  }
+}
